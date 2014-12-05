@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.wtc.WranglerActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/wrangler3" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nToko kami menyediakan berbagai kemeja,kaos,serta asesoris produk wrangler.
+Kami juga menyediakan celana dengan cara eceran maupun grosiran. Jadi tinggal pilih Celana Wrangler Produk kami." />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/wrangler2" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nPembelian produk kami juga dapat diakses secara online,Jangan diragukan lagi untuk masalah kualitas, www.jualcelanajeansmurah.com menjual Celana murah dengan kualitas kw super,
+jadi tunggu apalagi ,segera membeli Celana Wrangler dari produk kami. Karena harga yang murah tapi kualitasnya oke.
+Keuntungan membeli Produk dari kami adalah barang bisa di return apabila reject atau tidak sesuai ukuran" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
